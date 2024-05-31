@@ -483,6 +483,33 @@ section {
 }
 
 
+.cv {
+  text-decoration: none;
+}
+
+.download-button {
+  background-color: #0563bb;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s, transform 0.2s;
+  box-shadow: 0 0 15px 0 #000000;
+
+}
+
+.download-button:hover {
+  background-color: #ffffff;
+  color: #0563bb;
+
+}
+
+.download-button:active {
+  transform: scale(0.98);
+}
+
 /*--------------------------------------------------------------
 # Akills
 --------------------------------------------------------------*/
